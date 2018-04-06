@@ -1,47 +1,28 @@
-body {
-  background-color: #333;
-  color: #fff; }
+.bg-black {
+	background: #000;
+	color: #fff;
+}
 
-.navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.8; }
+#main-header img {
+	width: 100%;
+	height: 100%;
+}
 
-#home-section {
-  display: block;
-  background: url("../img/home.jpg");
-  background-repeat: no-repeat;
-  min-height: 700px;
-  background-size: cover;
-  background-attachment: fixed; }
-  #home-section .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 700px; }
-  #home-section .home-inner {
-    padding-top: 150px; }
-  #home-section .card-form {
-    opacity: .8;
-    padding: 10px; }
-  #home-section .fa {
-    color: #008ed6;
-    background: #fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px; }
+#main-header .port-item {
+	width: 30%;
+}
 
-#explore-section .fa, #share-section .fa {
-  color: #fff;
-  background: #333;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
+#main-header .port-item .fa {
+	font-size: 2em;
+}
 
-#create-section .fa {
-  color: #008ed6;
-  background: #fff;
-  padding: 4px;
-  border-radius: 5px;
-  font-size: 30px; }
+#main-header .port-item:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+	.port-item {
+		padding: 3em !important;
+	}
+}
