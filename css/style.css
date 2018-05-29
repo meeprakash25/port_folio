@@ -21,6 +21,12 @@
 	cursor: pointer;
 }
 
+#main-header .main-footer:hover {
+	color: #000 !important;
+	opacity: 0.8 !important;
+	cursor: pointer !important;
+}
+
 @media (min-width: 1199px) {
 	.port-item {
 		padding: 3em !important;

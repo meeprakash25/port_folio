@@ -10,6 +10,7 @@
   }
   .port-item{
     width: 30%;
+    // height: 40%;
     .fa{
       font-size: 2em;
     }
@@ -19,10 +20,23 @@
     opacity: 0.8;
     cursor: pointer;
   }
+
+  .main-footer:hover{
+    color: #000!important;
+    opacity: 0.8!important;
+    cursor: pointer!important;
+  }
+
 }
+
 
 @media(min-width:1199px){
   .port-item{
     padding: 3em!important;
   }
 }
+// @media(min-width:1199px){
+//   .port-item{
+//     padding: 3em!important;
+//   }
+// }
