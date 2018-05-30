@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <div class="container">
     <header id="main-header">
@@ -22,41 +17,34 @@
         <div class="col-lg-4 col-md-5">
           <img src="img/image.jpg">
         </div>
-        <div class="col-lg-8 col-md-7 "  >
+        <div class="col-lg-8 col-md-7">
           <div class="d-flex flex-column">
-            <div class="p-2 bg-dark"></div><!--just to occupy p-1-->
-            <div class="px-4 py-5 bg-dark bg-gradient text-light">
+            <div class="p-5 bg-dark text-white">
               <div class="name d-flex flex-row justify-content-between align-items-center">
-                <h2>Prakash Poudel</h2>
-                  <div><i class="fa fa-twitter"></i></div>
-                  <div><i class="fa fa-facebook"></i></div>
-                  <div><i class="fa fa-instagram"></i></div>
-                  <div><i class="fa fa-github"></i></div>
+                <h1 class="display-4">John Doe</h1>
+                <div><i class="fa fa-twitter"></i></div>
+                <div><i class="fa fa-facebook"></i></div>
+                <div><i class="fa fa-instagram"></i></div>
+                <div><i class="fa fa-github"></i></div>
               </div>
             </div>
 
-            <div class="p-2 bg-dark"></div>
-
-            <div class="p-1 bg-white"></div>
-
-            <div class="p-4 bg-light text-center text-muted" >
-              <h6>Experienced Full Stack Web Developer</h6>
+            <div class="p-4 bg-black">
+              Experienced Full Stack Web Developer
             </div>
 
-            <div class="p-1 bg-white"></div>
-
             <div>
-              <div class="d-flex flex-row text-white align-items-strech text-center">
-                <div class="port-item p-1 bg-primary" data-toggle="collapse" data-target="#home">
+              <div class="d-flex flex-row text-white align-items-stretch text-center">
+                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
                   <i class="fa fa-home d-block"></i> Home
                 </div>
-                <div class="port-item p-1 bg-success" data-toggle="collapse" data-target="#resume">
+                <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
                   <i class="fa fa-graduation-cap d-block"></i> Resume
                 </div>
-                <div class="port-item p-1 bg-warning" data-toggle="collapse" data-target="#work">
+                <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
                   <i class="fa fa-folder-open d-block"></i> Work
                 </div>
-                <div class="port-item p-1 bg-danger" data-toggle="collapse" data-target="#contact">
+                <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
                   <i class="fa fa-envelope d-block"></i> Contact
                 </div>
               </div>
@@ -65,33 +53,38 @@
         </div>
       </div>
     </header>
+
     <!-- HOME -->
     <div id="home" class="collapse show">
       <div class="card card-body bg-primary text-white py-5">
         <h2>Welcome to my page</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim labore, sint voluptates illo quae.</p>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quia.</p>
       </div>
 
       <div class="card card-body py-5">
         <h3>My Skills</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, pariatur veniam id voluptatem, a illo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nulla et, modi harum hic deserunt.</p>
         <hr>
-      </div>
-      <h4>HTML</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:100%"></div>
-      </div>
-      <h4>CSS</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:90%"></div>
-      </div>
-      <h4>PHP</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:80%"></div>
-      </div>
-      <h4>Python</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:60%"></div>
+        <h4>HTML</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h4>CSS</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:100%"></div>
+        </div>
+        <h4>JavaScript</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:90%"></div>
+        </div>
+        <h4>PHP</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:80%"></div>
+        </div>
+        <h4>Python</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width:70%"></div>
+        </div>
       </div>
     </div>
 
@@ -99,23 +92,22 @@
     <div id="resume" class="collapse">
       <div class="card card-body bg-success text-white py-5">
         <h2>My Resume</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim labore, sint voluptates illo quae.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo nobis ut labore iure tempore qui!</p>
       </div>
 
-
-      <card class=" card card-body py-5">
+      <div class="card card-body py-5">
         <h3>Where have I worked?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam est sunt beatae dolore quisquam, at ad corporis doloremque ex delectus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eligendi, ex officia itaque tempora natus.</p>
         <div class="card-deck">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Webmasters</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo quod ab tenetur illo incidunt quos natus placeat in, nisi!</p>
+              <h4 class="card-title">Devmasters</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Position: Full Stack Developer
               </p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Phone: 01-4465700
+                Phone: (444) 444-4444
               </p>
             </div>
             <div class="card-footer">
@@ -126,112 +118,109 @@
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Websites Pro</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo quod ab tenetur illo incidunt quos natus placeat in, nisi!</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Position: Front End Developer
               </p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Phone: 01-4454388
+                Phone: (333) 333-3333
               </p>
             </div>
             <div class="card-footer">
-              <h6 class="text-muted">Dates: 2012 - 2015</h6>
+              <h6 class="text-muted">Dates: 2013 - 2015</h6>
             </div>
           </div>
-
 
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Webster</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo quod ab tenetur illo incidunt quos natus placeat in, nisi!</p>
+              <h4 class="card-title">123 Designs</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Position: Back End Developer
+                Position: Designer
               </p>
               <p class="p-2 mb-3 bg-dark text-white">
-                Phone: 01-6623580
+                Phone: (222) 222-2222
               </p>
             </div>
             <div class="card-footer">
-              <h6 class="text-muted">Dates: 2010 - 2012</h6>
+              <h6 class="text-muted">Dates: 2010 - 2013</h6>
             </div>
           </div>
         </div>
-      </card>
+      </div>
     </div>
 
     <!-- WORK -->
     <div id="work" class="collapse">
       <div class="card card-body bg-warning py-5">
         <h3>My Portfolio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo in maxime nisi perspiciatis minus aperiam?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, adipisci?</p>
       </div>
 
-      <div class="card card-body p-5">
-        <h3>What have I built</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo in maxime nisi perspiciatis minus aperiam?</p>
+      <div class="card card-body py-5">
+        <h3>What have I built?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, eum.</p>
         <div class="row no-gutters">
           <div class="col-md-3">
             <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=251" alt="" class="img-fluid img-thumbnail">
-              </a>
+              <img src="https://unsplash.it/600.jpg?image=251" alt="" class="img-fluid">
+            </a>
           </div>
           <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=252" class="" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid img-thumbnail">
-              </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
+            </a>
           </div>
           <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=253" class="" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid img-thumbnail">
-              </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
+            </a>
           </div>
           <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=254" class="" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid img-thumbnail">
-              </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid">
+            </a>
           </div>
-
         </div>
 
         <div class="row no-gutters">
           <div class="col-md-3">
             <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid img-thumbnail">
-              </a>
+              <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid">
+            </a>
           </div>
           <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=256" class="" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid img-thumbnail">
-              </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid">
+            </a>
           </div>
           <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=257" class="" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid img-thumbnail">
-              </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid">
+            </a>
           </div>
           <div class="col-md-3">
-            <a href="https://unsplash.it/1200/768.jpg?image=258" class="" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid img-thumbnail">
-              </a>
+            <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid">
+            </a>
           </div>
-
         </div>
       </div>
     </div>
 
-    <!-- Contact -->
+    <!-- CONTACT -->
     <div id="contact" class="collapse">
-      <div class="card card-body bg-danger text-white py5">
-        <h2>contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus debitis deserunt dolores.</p>
+      <div class="card card-body bg-danger text-white py-5">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, dignissimos?</p>
       </div>
 
       <div class="card card-body py-5">
         <h3>Get in touch</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sapiente placeat asperiores quia id sequi dicta assumenda, repellendus odio similique.</p>
-        <form action="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, autem.</p>
+        <form>
           <div class="form-group">
-            <div class="input-group">
+            <div class="input-group input-group-lg">
               <span class="input-group-addon bg-danger text-white">
                 <i class="fa fa-user"></i>
               </span>
@@ -239,7 +228,7 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="input-group">
+            <div class="input-group input-group-lg">
               <span class="input-group-addon bg-danger text-white">
                 <i class="fa fa-envelope"></i>
               </span>
@@ -247,63 +236,41 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="input-group">
+            <div class="input-group input-group-lg">
               <span class="input-group-addon bg-danger text-white">
                 <i class="fa fa-pencil"></i>
               </span>
-              <textarea type="text" rows="5" class="form-control bg-dark text-white" placeholder="Message"></textarea>
+              <textarea rows="5" class="form-control bg-dark text-white" placeholder="Message"></textarea>
             </div>
           </div>
-          <input class="btn btn-danger btn-block btn-lg" type="button" value="submit" name="Submit">
+          <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
         </form>
       </div>
     </div>
 
-    <!--   FOOTER -->
+    <!-- FOOTER -->
     <footer id="main-footer" class="p-5 bg-dark text-white">
       <div class="row">
-        <div class="col-md-6 footer-button">
-          <a href="https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf" class="btn btn-outline-light ">
-            <i class="fa fa-cloud"></i> Download Resume
-          </a>
+        <div class="col-md-6">
+          <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i> Download Resume</a>
         </div>
       </div>
     </footer>
   </div>
 
-  </div>
-
-
-
-
-
-
-  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script> -->
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
   <script>
-    $('.port-item').click(function() {
+    $('.port-item').click(function(){
       $('.collapse').collapse('hide');
     });
-  </script>
 
-  <script>
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-      event.preventDefault();
-      $(this).ekkoLightbox();
+        event.preventDefault();
+        $(this).ekkoLightbox();
     });
   </script>
-
 </body>
-
 </html>
